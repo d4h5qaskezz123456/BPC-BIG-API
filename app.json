@@ -1,0 +1,78 @@
+{
+  "id": "16d58c86-02e9-4693-af2f-0fa4355a5312",
+  "name": "LS - API",
+  "publisher": "Bhatara Progress Co., Ltd.",
+  "version": "22.0.0.15",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "20.0.0.0"
+    },
+    {
+      "id": "5ecfc871-5d82-43f1-9c54-59685e82318d",
+      "publisher": "LS Retail",
+      "name": "LS Central",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "2a0547fa-f60f-401d-b1fe-c7c4be8fb230",
+      "publisher": "LS Retail",
+      "name": "LS Central System App",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "75639c67-2c72-4fea-b9d3-317957952b6f",
+      "publisher": "Bhatara Progress Co., Ltd.",
+      "name": "BIGCamera",
+      "version": "22.0.1.7"
+    },
+    {
+      "id": "d2746aa8-fe48-448f-9182-276496510b68",
+      "publisher": "Bhatara Progress Co., Ltd.",
+      "name": "Bhatara TH Localize v.22",
+      "version": "22.0.0.0"
+    },
+    {
+      "id": "b130b866-8064-4d65-ad2f-2fdfda66ba50",
+      "publisher": "Bhatara Progress Co., Ltd.",
+      "name": "Bhatara TH LS Localize v.22.0",
+      "version": "22.0.0.0"
+    }
+    
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 80000,
+      "to": 80199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "suppressWarnings": ["AA0470","AA0215","AA0131"]
+}

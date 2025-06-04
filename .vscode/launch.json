@@ -1,0 +1,87 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",     
+          "name": "BIG-DEV",
+          "environmentType": "OnPrem",
+          "server": "http://vbcls02:8080/BIG-DEV/",
+          "serverInstance": "BIG-DEV",
+          "port": 7204,
+          "tenant": "default",
+          "authentication":"UserPassword",
+          "startupObjectId": 9006,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "schemaUpdateMode": "ForceSync",
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true
+        },
+        {
+          "type": "al",
+          "request": "launch",
+
+          "name": "BIG-TEST",
+          "environmentType": "OnPrem",
+          "server": "http://vbcls02:8080/BIG-TEST/",
+          "serverInstance": "BIG-TEST",
+          "port": 7304,
+          "tenant": "default",
+          "authentication":"UserPassword",
+          "startupObjectId": 9006,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "schemaUpdateMode": "ForceSync",
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true
+        },
+        {
+          "type": "al",
+          "request": "launch",
+          "name": "BIGCAMERA-TEST",
+          "environmentType": "OnPrem",
+          "server": "http://BIGPRD01APP/BIGCAMERA-TEST/",
+          "serverInstance": "BIGCAMERA-TEST",
+          "port": 9049,
+          "tenant": "default",
+          "authentication":"UserPassword",
+          "startupObjectId": 9307,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "schemaUpdateMode": "ForceSync",
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true
+        }
+        ,
+        {
+          "type": "al",
+          "request": "launch",
+          "name": "BIGCAMERA",
+          "environmentType": "OnPrem",
+          "server": "https://bcls.bigcamera.co.th/BIGCAMERA",
+          "serverInstance": "BIGCAMERA",
+          "port": 7049,
+          "tenant": "default",
+          "authentication":"UserPassword",            
+          "startupObjectId": 9006,
+          "startupObjectType": "Page",
+          "breakOnError": true,
+          "launchBrowser": true,
+          "schemaUpdateMode": "ForceSync",
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true
+        }
+    ]
+}
+
+/*
+แก้ไข V.22.0.1.4
+- Bill มี รายการ Comment แล้วจ่ายผ่านบัตร แล้วเลขบัตรไม่ขึ้นใน Slip
+
+แก้ไข V.22.0.1.3
+- POSCardEntry เก็บ Tender Type จาก Transales entry
+*/
