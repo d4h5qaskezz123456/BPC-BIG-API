@@ -50,10 +50,10 @@ codeunit 80000 "BPC.Interface Data"
         InterfaceDocumentStatus: Record "BPC.Interface Document Status";
         TmpDocStatus: Record "BPC.Interface Document Status" temporary;
     begin
-        if GUIALLOWED then begin
-            if NOT CONFIRM('Run Get Status?') then
-                exit;
-        end;
+        // if GUIALLOWED then begin
+        //     if NOT CONFIRM('Run Get Status?') then
+        //         exit;
+        // end;
 
         GetInventTrans;
         PostedStmt.Reset();
