@@ -55,7 +55,7 @@ codeunit 80000 "BPC.Interface Data"
         //         exit;
         // end;
 
-        GetInventTrans;
+        //GetInventTrans;
         PostedStmt.Reset();
         if PostedStmt.FindSet() then
             repeat
