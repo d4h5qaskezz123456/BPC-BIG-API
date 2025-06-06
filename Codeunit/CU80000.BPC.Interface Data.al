@@ -80,8 +80,8 @@ codeunit 80000 "BPC.Interface Data"
                 PurchRcptHeader.Get(TmpDocStatus."BPC.Document No.");
                 GetGRNStatus(PurchRcptHeader, TRUE);
             until TmpDocStatus.Next() = 0;
-        if GUIALLOWED then
-            Message('Ok');
+        // if GUIALLOWED then
+        //     Message('Ok');
     end;
 
     var
